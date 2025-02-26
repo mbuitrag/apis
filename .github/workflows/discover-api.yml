@@ -6,7 +6,7 @@ env:
   API_HOST: mycluster-us-south-474646-5be3236ad16dbdff10fd76db6324dbb1-0000.us-south.containers.appdomain.cloud
   PLATFORM_API_PREFIX: apix-mgmt-platform-api-apic
   PROVIDER_ORG: demo
-  API_FILES: /
+  API_FOLDERS: apiconnect/
   INSECURE_SKIP_TLS_VERIFY: true
   api_key: 5e3572ca-12d6-4cac-a5d6-6caf7cd76909
 
