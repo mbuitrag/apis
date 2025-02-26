@@ -8,7 +8,7 @@ env:
   PROVIDER_ORG: demo
   API_FILES: bookshop-v1.0.yaml
   INSECURE_SKIP_TLS_VERIFY: true
-  API_KEY: apicApikey
+  api_key: apicApikey
 
 jobs:
   check_changes_job:
