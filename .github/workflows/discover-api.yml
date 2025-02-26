@@ -4,7 +4,6 @@ on: [pull_request, workflow_dispatch, push]
 
 env:
   API_HOST: mycluster-us-south-474646-5be3236ad16dbdff10fd76db6324dbb1-0000.us-south.containers.appdomain.cloud
-  PLATFORM_API_PREFIX: platform-api
   PROVIDER_ORG: demo
   API_FILES: bookshop-v1.0.yaml
   INSECURE_SKIP_TLS_VERIFY: true
