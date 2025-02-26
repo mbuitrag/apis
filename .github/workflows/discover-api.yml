@@ -3,11 +3,12 @@ name: Sync Discovered API with APIConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: apix-gw-gateway-apic.mycluster-us-south-474646-5be3236ad16dbdff10fd76db6324dbb1-0000.us-south.containers.appdomain.cloud
+  API_HOST: mycluster-us-south-474646-5be3236ad16dbdff10fd76db6324dbb1-0000.us-south.containers.appdomain.cloud
   PLATFORM_API_PREFIX: platform-api
-  PROVIDER_ORG: Demo
+  PROVIDER_ORG: demo
   API_FILES: /
   INSECURE_SKIP_TLS_VERIFY: true
+  API_KEY: 94c276a2-a14f-46e9-94f7-9ca7dbe6fb58
 
 jobs:
   check_changes_job:
