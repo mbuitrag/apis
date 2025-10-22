@@ -8,7 +8,7 @@ env:
   PROVIDER_ORG: demoorg
   API_FOLDERS: apiconnect/
   INSECURE_SKIP_TLS_VERIFY: true
-  api_key: 5a880473-ba41-429c-a148-eb341dc3ed90
+  api_key: c97b35f7-235f-4882-b8aa-8a6c018f5941
 
 jobs:
   check_changes_job:
