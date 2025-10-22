@@ -3,8 +3,8 @@ name: Sync Discovered API with APIConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: apic-min-mgmt-api-manager-apic.apps.68f7946fa62483ab9217f32a.am1.techzone.ibm.com
-  PLATFORM_API_PREFIX: apic-min-mgmt-api-manager-apic
+  API_HOST: apps.68f7946fa62483ab9217f32a.am1.techzone.ibm.com
+  PLATFORM_API_PREFIX: apic-min-mgmt-platform-api-apic
   PROVIDER_ORG: demoorg
   API_FOLDERS: apiconnect/
   INSECURE_SKIP_TLS_VERIFY: true
